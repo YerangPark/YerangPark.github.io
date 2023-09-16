@@ -1,5 +1,5 @@
 ---
-title: [임베디드 기초] 2강 - 칩에 대하여
+title: "[임베디드 기초] 2강 - 칩에 대하여"
 date: 2023-08-14
 categories: [Dev, Embedded]
 tags: [embdded_basic]
