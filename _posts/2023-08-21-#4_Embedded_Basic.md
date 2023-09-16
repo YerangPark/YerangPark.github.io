@@ -27,7 +27,7 @@ STM32 Cube IDE를 쓰는 이유?
 
 ## STM32CubeIDE 프로젝트 생성
 
-![](assets/img/Embedded_Basic/#4/image.png)
+![](/assets/img/Embedded_Basic/#4/image.png)
 
   
 
@@ -39,7 +39,7 @@ PRODUCT INFO에서 칩에 대한 선택을 하고, 리스트에서 동일한 모
 
 추가로, 칩 선택 후 우측 상단에서 데이터 시트도 다운 받을 수 있음.
 
-![](assets/img/Embedded_Basic/#4/image%202.png)![](assets/img/Embedded_Basic/#4/image%203.png)![](assets/img/Embedded_Basic/#4/image%204.png)
+![](/assets/img/Embedded_Basic/#4/image%202.png)![](/assets/img/Embedded_Basic/#4/image%203.png)![](/assets/img/Embedded_Basic/#4/image%204.png)
 
   
 
@@ -49,25 +49,25 @@ PRODUCT INFO에서 칩에 대한 선택을 하고, 리스트에서 동일한 모
 
 칩에도 자세히 보면 점이 있다.
 
-![](assets/img/Embedded_Basic/#4/image%205.png)![](assets/img/Embedded_Basic/#4/image%206.png)
+![](/assets/img/Embedded_Basic/#4/image%205.png)![](/assets/img/Embedded_Basic/#4/image%206.png)
 
   
 
 자, 이제 다시  IDE로 넘어와서 Next를 누르면 아래와 같은 창이 뜨는데, 이름을 기입하고 Finish를 누른다.
 
-![](assets/img/Embedded_Basic/#4/image%207.png)  
+![](/assets/img/Embedded_Basic/#4/image%207.png)  
 
   
 
 perspective now? 라는 다이얼로그가 뜨면 Yes를 누르고 기다린다.
 
-![](assets/img/Embedded_Basic/#4/image%208.png)  
+![](/assets/img/Embedded_Basic/#4/image%208.png)  
 
   
 
 그럼 이렇게 생긴 유아이가 뜨고, 각 핀별로 기능을 쉽게 할당할 수 있다!
 
-![](assets/img/Embedded_Basic/#4/image%209.png)  
+![](/assets/img/Embedded_Basic/#4/image%209.png)  
 
   
 
@@ -77,7 +77,7 @@ perspective now? 라는 다이얼로그가 뜨면 Yes를 누르고 기다린다.
 
 ## 이제 보드를 연결해보자
 
-![](assets/img/Embedded_Basic/#4/54301FEA-BCC1-48E7-9F73-6D13447979B9.jpg)
+![](/assets/img/Embedded_Basic/#4/54301FEA-BCC1-48E7-9F73-6D13447979B9.jpg)
 
 ST Link로 연결하면 전원도 함께 들어간다. 이렇게 연결하면 된다.
 
@@ -89,7 +89,7 @@ ST 로그인을 안하면 아래와 같이 메세지가 뜨면서 코드가 생�
 
 ST 계정 생성을 하고 로그인 한 뒤 Project > Generate Code를 선택한다.
 
-![](assets/img/Embedded_Basic/#4/image%2010.png)![](assets/img/Embedded_Basic/#4/image%2011.png)  
+![](/assets/img/Embedded_Basic/#4/image%2010.png)![](/assets/img/Embedded_Basic/#4/image%2011.png)  
 
   
 
@@ -97,7 +97,7 @@ ST 계정 생성을 하고 로그인 한 뒤 Project > Generate Code를 선택�
 
 ###  main.c 열어보기
 
-![](assets/img/Embedded_Basic/#4/image%2012.png)  
+![](/assets/img/Embedded_Basic/#4/image%2012.png)  
 
 코드를 짤 때 주의할 점이 있는데, USER Code Begin Includes와 End Includes 사이에 내 코드를 넣어야 한다. 💥다른데에 넣으면 안된다!💥
 
@@ -113,11 +113,11 @@ main() 함수에 있는 HAL\_Init() 함수 위치에 중단점을 찍고 디버�
 
 다이얼로그가 뜨면 OK를 누르고, 새로운 버전이 있는 것 같다~ 하면 NO, 그 다음에 파일 포함 여부에서는 OK를 누른다.
 
-![](assets/img/Embedded_Basic/#4/image%2013.png) 
+![](/assets/img/Embedded_Basic/#4/image%2013.png) 
 
 → 만약 ST Link가 연결이 안되어있으면 이런 에러가 뜬다.
 
-![](assets/img/Embedded_Basic/#4/image%2014.png)
+![](/assets/img/Embedded_Basic/#4/image%2014.png)
 
  → OK를 누르면 업데이트하도록 다이얼로그가 뜨고, 그 창에서 ST Link 업데이트를 진행하면 이 에러는 사라진다.
 
@@ -135,7 +135,7 @@ ioc를 더블클릭해서 핀세팅 뷰로 바꾸고, System Core > SYS를 선�
 
 그리고 
 
-![](assets/img/Embedded_Basic/#4/image%2015.png)![](assets/img/Embedded_Basic/#4/image%2016.png)![](assets/img/Embedded_Basic/#4/99a40e2f-047c-4956-ae74-4e4a534e8049.png)  
+![](/assets/img/Embedded_Basic/#4/image%2015.png)![](/assets/img/Embedded_Basic/#4/image%2016.png)![](/assets/img/Embedded_Basic/#4/99a40e2f-047c-4956-ae74-4e4a534e8049.png)  
 
 보통 시리얼 와이어를 선호한다. → 핀 2개만 이용해서(핀을 아껴서) 컨트롤 가능해서.
 
@@ -153,7 +153,7 @@ ioc를 더블클릭해서 핀세팅 뷰로 바꾸고, System Core > SYS를 선�
 
 while(1) 반복문 안에는 헬로월드를 찍을 수 없으니, HAL\_Delay를 통해 딜레이를 줘보자. 그 결과는 아래와 같다.
 
-![](assets/img/Embedded_Basic/#4/image%2017.png)  
+![](/assets/img/Embedded_Basic/#4/image%2017.png)  
 
   
 
@@ -173,7 +173,7 @@ while(1) 반복문 안에는 헬로월드를 찍을 수 없으니, HAL\_Delay를
 
 가운데 나와있는 CPU 회로도를 보면 1~24번 핀까지 그려져 있는데, 저 핀이 우측 데이터 시트에서 봤던 핀 번호랑 동일한거다.
 
-![](assets/img/Embedded_Basic/#4/image%2018.png)![](assets/img/Embedded_Basic/#4/image%205.png)  
+![](/assets/img/Embedded_Basic/#4/image%2018.png)![](/assets/img/Embedded_Basic/#4/image%205.png)  
 
   
 
@@ -181,7 +181,7 @@ LED를 한 번 연결해볼건데, LED는 핀 중 PC13이라는 GPIO를 제어�
 
 D2는 아래 그림에 표시해두었다.
 
-![](assets/img/Embedded_Basic/#4/image%2019.png)![](assets/img/Embedded_Basic/#4/image%2020.png)  
+![](/assets/img/Embedded_Basic/#4/image%2019.png)![](/assets/img/Embedded_Basic/#4/image%2020.png)  
 
   
 
@@ -193,7 +193,7 @@ PC13핀을 누르고 GPIO\_Output을 할당한다.
 
 그럼 아래 그림과 같이 항목을 선택해준다. 각 항목이 선택된 이유는 다음 강의에서 설명해주신다고 함.
 
-![](assets/img/Embedded_Basic/#4/image%2021.png) →![](assets/img/Embedded_Basic/#4/image%2022.png)→ ![](assets/img/Embedded_Basic/#4/image%2023.png)
+![](/assets/img/Embedded_Basic/#4/image%2021.png) →![](/assets/img/Embedded_Basic/#4/image%2022.png)→ ![](/assets/img/Embedded_Basic/#4/image%2023.png)
 
   
 
@@ -247,7 +247,7 @@ HAL_GPIO_WritePin(GPIOx, GPIO_Pin, PinState);
 
   
 
-![](assets/img/Embedded_Basic/#4/image%2024.png) → 0x2000을 헥사로 까보면 13번째 비트에 1이 들어가있는걸 볼 수 있다.  
+![](/assets/img/Embedded_Basic/#4/image%2024.png) → 0x2000을 헥사로 까보면 13번째 비트에 1이 들어가있는걸 볼 수 있다.  
 
   
 
@@ -267,7 +267,7 @@ while (1)
 
 ### 결과물!
 
-![](assets/img/Embedded_Basic/#4/ezgif.com-video-to-gif.gif)  
+![](/assets/img/Embedded_Basic/#4/ezgif.com-video-to-gif.gif)  
 
   
 
@@ -279,7 +279,7 @@ ioc로 가서 PA0에 GPIO\_Input을 할당한다.
 
 그리고 아래와 같이 Configuration을 설정하고 저장한다.
 
-![](assets/img/Embedded_Basic/#4/image%2019.png)![](assets/img/Embedded_Basic/#4/image%2025.png)
+![](/assets/img/Embedded_Basic/#4/image%2019.png)![](/assets/img/Embedded_Basic/#4/image%2025.png)
 
 ### 루프 내 코드
 
@@ -298,6 +298,6 @@ HAL_Delay(100);
 
 ### 결과! 
 
-![](assets/img/Embedded_Basic/#4/ezgif.com-video-to-gif%20(1).gif)  
+![](/assets/img/Embedded_Basic/#4/ezgif.com-video-to-gif%20(1).gif)  
 
 다음 시간에는 코드 분석을 해보고, 라이브러리 안쓰고 직접도 해보고~ 할 것이ㅏㄷ.
