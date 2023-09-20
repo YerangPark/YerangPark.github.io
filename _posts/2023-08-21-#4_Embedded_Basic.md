@@ -296,6 +296,6 @@ HAL_Delay(100);
 
 ### 결과! 
 
-![](/assets/img/Embedded_Basic/04/ezgif.com-video-to-gif%20(1).gif) 
+![](/assets/img/Embedded_Basic/04/ezgif.com-video-to-gif2.gif) 
 
 다음 시간에는 코드 분석을 해보고, 라이브러리 안쓰고 직접도 해보고~ 할 것이ㅏㄷ.
