@@ -24,3 +24,41 @@ React를 이용하였기에 컴포넌트의 재사용성을 활용할 수 있다
 사실 나는 직접 만들어보며.. 부딪히며 깨닫는게 많다.
 
 일단 해보자!!
+[참고 링크](https://devfoxstar.github.io/web/github-pages-gatsby/)
+
+### node, npm 재설치
+gatsby 설치 시 node버전을 18이상 요구하여 아래 커맨드로 node, npm을 재설치함.
+```bash
+sudo rm -rf /usr/local/bin/npm /usr/local/share/man/man1/node* /usr/local/lib/dtrace/node.d ~/.npm ~/.node-gyp /opt/local/bin/node /opt/local/include/node /opt/local/lib/node_modules
+sudo rm -rf /usr/local/lib/node* ; sudo rm -rf /usr/local/include/node* ; sudo rm -rf /usr/local/bin/node*
+sudo apt-get purge nodejs npm
+
+sudo apt install -y nodejs npm
+sudo npm cache clean -f
+
+sudo npm install npm
+sudo npm install -g n
+sudo n stable
+
+node --version
+npm --version
+```
+
+### Gatsby 설치
+```bash
+npm install -g gatsby-cli
+```
+
+### Gatsby 프로젝트 생성
+하단 링크에서 원하는 테마를 선택한다.
+
+https://www.gatsbyjs.com/starters/
+
+원하는 테마를 골랐다면 아래 커맨드를 이용해 설치해준다.
+```bash
+gatsby new {프로젝트명} {테마 경로}
+```
+나의 경우에는 `gatsby-starter-datocms-homepage` 테마를 이용했다.
+```bash
+gatsby new gatsby-starter-datocms-homepage https://github.com/gatsbyjs/gatsby-starter-datocms-homepage
+```
