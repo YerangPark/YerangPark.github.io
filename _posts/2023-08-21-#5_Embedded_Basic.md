@@ -59,10 +59,6 @@ render_with_liquid: false
   ```
 - `#define FLASH ((FLASH_TypeDef *)FLASH_R_BASE)` 문장에서 쓰인 FLASH_TypeDef 정의부를 보면 구조체 내용이 아래와 같다.
     ```c
-    /** 
-    * @brief FLASH Registers
-    */
-
     typedef struct
     {
     __IO uint32_t ACR;
