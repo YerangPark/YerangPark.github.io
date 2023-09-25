@@ -44,6 +44,13 @@ node --version
 npm --version
 ```
 
+### node, npm 재설치 in Mac
+```bash
+brew uninstall --ignore-dependencies node
+brew cleanup
+brew install node
+```
+
 ### Gatsby 설치
 ```bash
 npm install -g gatsby-cli
@@ -61,4 +68,9 @@ gatsby new {프로젝트명} {테마 경로}
 나의 경우에는 `gatsby-starter-datocms-homepage` 테마를 이용했다.
 ```bash
 gatsby new gatsby-starter-datocms-homepage https://github.com/gatsbyjs/gatsby-starter-datocms-homepage
+```
+
+### 로컬 서버에서 구동
+```bash
+gatsby develop
 ```
