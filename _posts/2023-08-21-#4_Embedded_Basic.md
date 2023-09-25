@@ -2,7 +2,7 @@
 title: "[임베디드 기초] 4강 - GPIO"
 date: 2023-08-17
 categories: [Dev, Embedded]
-tags: [embdded_basic]
+tags: [embedded_basic]
 render_with_liquid: false
 ---
 

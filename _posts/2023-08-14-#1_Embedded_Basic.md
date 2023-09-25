@@ -2,7 +2,7 @@
 title: "[임베디드 기초] 1강 - 큰 그림 그리기"
 date: 2023-08-14
 categories: [Dev, Embedded]
-tags: [embdded_basic]
+tags: [embedded_basic]
 render_with_liquid: false
 ---
 
