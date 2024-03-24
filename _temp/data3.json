@@ -1,0 +1,20 @@
+[
+  {
+    "id" : 6,
+    "title" : "Trolli Hamburger",
+    "content" : "various flavor",
+    "price" : 15000
+  },
+  {
+    "id" : 7,
+    "title" : "Haribo Cola",
+    "content" : "cola flavor",
+    "price" : 1500
+  },
+  {
+    "id" : 8,
+    "title" : "Pororo",
+    "content" : "enjoy 6 flavors",
+    "price" : 2000
+  }
+]
